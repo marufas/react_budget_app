@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.select-field {
+  background-color: #93e499;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  width: auto;
+  cursor: pointer;
+}
+
+.select-field option {
+  color: white;
+  border-radius: 50px;
+  border: 3px solid green;
+}
+
+.select-field option:hover {
+  background-color: white;
+}

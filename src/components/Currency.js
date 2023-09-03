@@ -14,12 +14,13 @@ const ExpenseList = () => {
   }
 
   return (
-    <div className="alert alert-success">
-      <label htmlFor="currency">Currency</label>
+    <div className="container">
       <select
         name="currency"
-        id="currency"
+        className="select-field"
+        id="currency-select"
         defaultValue={currency}
+        // style={{ background: "#93e499", padding: "10px", "border-radius": "5px", color: "white" }}
         onChange={(event) => setCurrency(event.target.selectedOptions[0].value)}>
         <option value="$">$ Dollar</option>
         <option value="£">£ Pound</option>
