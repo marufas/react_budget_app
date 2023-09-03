@@ -32,3 +32,20 @@ code {
 .select-field option:hover {
   background-color: white;
 }
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: #af2419;
+}
+
+.green {
+  background-color: #5aaf67;
+}
