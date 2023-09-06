@@ -20,7 +20,6 @@ const ExpenseList = () => {
         className="select-field"
         id="currency-select"
         defaultValue={currency}
-        // style={{ background: "#93e499", padding: "10px", "border-radius": "5px", color: "white" }}
         onChange={(event) => setCurrency(event.target.selectedOptions[0].value)}>
         <option value="$">$ Dollar</option>
         <option value="£">£ Pound</option>
